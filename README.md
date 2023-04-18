@@ -1,5 +1,46 @@
-# Welcome to GitHub Desktop!
 
-This is your README. READMEs are where you can communicate what your project is and how to use it.
+# 四阶龙格库塔导弹轨迹仿真以及可视化
+获得程序代码：
+【四阶龙格库塔算法程序】
+链接：https://pan.baidu.com/s/1IKXqWdyuEWzP79H__P6adQ?pwd=1234
 
-Write your name on line 6, save it, and then head back to GitHub Desktop.
+提取码：1234
+*******************************************
+运行环境
+C++编程软件             vscode
+C++编译器                MinGW-W64 GCC-8.1.0
+python编程软件         pycharm 
+python版本                python3.8
+QT版本                      QT creator 4.8.2
+*******************************************
+电脑配置
+CPU	Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz   2.90 GHz
+GPU        AMD Radeon RX 6600
+操作系统  Windows 10
+内存	16.0 GB
+硬盘         2T
+*******************************************
+## exe文件夹
+点击EXE文件夹中的LK.exe就可以执行编写好的仿真界面
+## 参考资料文件夹
+参考资料文件夹中是本次项目中参考的内容
+
+
+## 代码文件夹
+### 1.Lagrange插值程序
+内容为Lagrange插值的C++程序lagrange.cpp，使用方法为在主函数中给X和Y数组赋值，并且更改待求解的插值节点的x值，输出为插值结果。
+
+### 2.最小二乘曲线拟合
+内容为最小二乘法曲线拟合的python程序最小二乘法曲线拟合.py，使用方法是在脚本开头的部分给X和Y数组赋值，然后运行，输出为拟合曲线的函数表达，以及曲线的图像。
+
+### 3.python数据可视化
+内容为数据可视化的python程序data.py，其中文件夹里的data.txt是等待可视化的数据，使用方法是直接运行data.py，输出为一个可视化窗口
+
+### 4.龙格库塔仿真主文件
+内容为四阶龙格库塔的C++飞弹仿真程序main.cpp，使用方法是在main.cpp的开头对飞弹个数，仿真步长等参数进行修改，然后直接运行main.cpp，输出结果是每个飞弹的落地位置，并且会调用python可视化程序，展示可视化窗口。
+
+### 5.QT文件
+内容为飞弹方针的QT界面工程，使用方法是安装QT，打开LK.pro文件，就能看到界面设计的代码了。我已经将文件打包成为exe可执行文件，可以打开文件夹“仿真QT界面，点击LK.exe使用”中的LK.exe运行使用，在界面中可以调整各种参数，输出结果是仿真的可视化窗口。
+
+
+
