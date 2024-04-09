@@ -6,6 +6,16 @@
 
 提取码：1234
 *******************************************
+@misc{四阶龙格库塔导弹轨迹仿真以及可视化,
+  author = {Shiran Yu},
+  title = {四阶龙格库塔导弹轨迹仿真以及可视化},
+  year = {2024},
+  url = {https://github.com/yushiran/LK-flying-bomb-simulator},
+  note = {四阶龙格库塔导弹轨迹仿真以及可视化},
+  organization = {},
+  key = {四阶龙格库塔导弹轨迹仿真以及可视化}
+}
+*******************************************
 运行环境
 C++编程软件             vscode
 C++编译器                MinGW-W64 GCC-8.1.0
